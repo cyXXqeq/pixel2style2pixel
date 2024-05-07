@@ -6,10 +6,10 @@ dataset_paths = {
 	'celeba_train_segmentation': '',
 	'celeba_test_segmentation': '',
 	'ffhq': '',
-    'funeral_source': 'drive/MyDrive/Dataset/train/A',
-    'funeral_retouch': 'drive/MyDrive/Dataset/train/B',
-    'funeral_test_source': 'drive/MyDrive/Dataset/test/A',
-    'funeral_test_retouch': 'drive/MyDrive/Dataset/test/B',
+    'funeral_source': '/content/drive/MyDrive/Dataset/train/A',
+    'funeral_retouch': '/content/drive/MyDrive/Dataset/train/B',
+    'funeral_test_source': '/content/drive/MyDrive/Dataset/test/A',
+    'funeral_test_retouch': '/content/drive/MyDrive/Dataset/test/B',
 }
 
 model_paths = {

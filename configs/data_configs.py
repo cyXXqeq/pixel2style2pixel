@@ -38,4 +38,11 @@ DATASETS = {
 		'test_source_root': dataset_paths['celeba_test'],
 		'test_target_root': dataset_paths['celeba_test'],
 	},
+    'test_funeral': {
+        'transform': transforms_config.EncodeTransforms,
+        'train_source_root': dataset_paths['funeral_source'],
+		'train_target_root': dataset_paths['funeral_retouch'],
+		'test_source_root': dataset_paths['funeral_test_source'],
+		'test_target_root': dataset_paths['funeral_test_retouch'],
+	}
 }
